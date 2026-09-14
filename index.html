@@ -52,8 +52,7 @@
 <driv>
 <h2>meu primeiro post</h2>
 <p class="artigo-autor">por: ana carolina</p>
-<p>olá pessoal sejam bem-vindas ao meu novo blog!
-    aqui vou compartilhar dicas de programação e curiosidades
+<p>olá pessoal sejam bem-vindas ao meu novo blog! aqui vou compartilhar dicas de programação e curiosidades
     da área de tecnologia. </p>
     <button> ❣️ <span>0</span> </button>
     <button> 👍 <span>0</span> </button>
@@ -64,11 +63,10 @@
     alt="logotipo conceitual de tecnologia e educação">
     
     <driv>
-    <h2>meu primeiro post</h2>
+    <h2>O primeiro mouse não era de plástico</h2>
 <p class="artigo-autor">por: ana carolina</p>
-<p>olá pessoal sejam bem-vindas ao meu novo blog!
-    aqui vou compartilhar dicas de programação e curiosidades
-    da área de tecnologia. </p>
+<p>Antes do design ergonômico e das luzes RGB, o primeiro mouse do mundo foi construindo em madeira!Criado por Douglas Engelbart em 1964, 
+ele tinha o formato de uma caixa quadrada e apena um botão". </p>
     <button> ❣️ <span>0</span> </button>
     <button> 👍 <span>0</span> </button>
     </driv>
@@ -80,6 +78,15 @@
         const botao =document.querySElector("button");
                    
         botoes.forEach(function(botao) {
+               <script>
+        const botao =document.querySElector("button");
+                   
+        botoes.forEach(function(botao) {
+            let curtiu = false;           
+            botao.addEventListener("click", botaoClicado);
+        function botaoClicao() {
+           console.log("fui clicado");
+         
             let curtiu = false;           
             botao.addEventListener("click", botaoClicado);
         function botaoClicao() {
