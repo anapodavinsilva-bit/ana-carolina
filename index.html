@@ -62,17 +62,35 @@
     </article>
     <img src="imagem-blog.jpeg"
     alt="logotipo conceitual de tecnologia e educação">
-           <article>
+    
+    <driv>
+    <h2>meu primeiro post</h2>
+<p class="artigo-autor">por: ana carolina</p>
+<p>olá pessoal sejam bem-vindas ao meu novo blog!
+    aqui vou compartilhar dicas de programação e curiosidades
+    da área de tecnologia. </p>
+    <button> ❣️ <span>0</span> </button>
+    <button> 👍 <span>0</span> </button>
+    </driv>
+                  <article>    
            </main>
            </body>
 
                <script>
         const botao =document.querySElector("button");
                    
-        botoes.addEventListener("click", botaoClicado);
-    </script>
-funcion botaoClicao() {
-    console.log("fui clicado")
-    let texto = botao.querySelector("span")
-    texto.textContent++;
+        botoes.forEach(function(botao) {
+            let curtiu = false;           
+            botao.addEventListener("click", botaoClicado);
+        function botaoClicao() {
+           console.log("fui clicado");
+           let texto = botao.querySelector("span")
+        if(curtiu ===false) {
+
+        }
+        texto.textContent++;
+        })
+        }
+                       </script>   
+    
 </html>
