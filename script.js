@@ -1,8 +1,3 @@
-body {
-    max-width: 100vw;
-
-
-}
 const botoes = document.querySelectorall("button");
 
      botoes.ForEach(function (botao) {
@@ -12,11 +7,8 @@ const botoes = document.querySelectorall("button");
                  console.log("fui clicado");
                  let texto = botao.querySelector("span");
                      if(curtiu === false) {
-                     texto.textcontent++;
-                     curtiu = true;
-                     } else{
-                     texto.textcontent--;
-                     curtiu = false;
+
                      }
-             }
-})
+                     texto.textContent++;
+             })
+             }  
